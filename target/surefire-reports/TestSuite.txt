@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 14.078 s <<< FAILURE! - in TestSuite
+createChecklist(Test_cases.CheckListTests)  Time elapsed: 0.675 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <401>.
+
+	at Test_cases.CheckListTests.createChecklist(CheckListTests.java:30)
+
+updateCheckList(Test_cases.CheckListTests)  Time elapsed: 0.632 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at Test_cases.CheckListTests.updateCheckList(CheckListTests.java:47)
+
+getTheCardAChecklistIsOn(Test_cases.CheckListTests)  Time elapsed: 0.622 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <400>.
+
+	at Test_cases.CheckListTests.getTheCardAChecklistIsOn(CheckListTests.java:71)
+

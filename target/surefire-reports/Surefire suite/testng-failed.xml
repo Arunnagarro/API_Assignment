@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Test_cases.CheckListTests">
+        <methods>
+          <include name="setReports"/>
+          <include name="startTest"/>
+          <include name="atestCaseResult"/>
+          <include name="createChecklist"/>
+          <include name="getTheCardAChecklistIsOn"/>
+          <include name="basic_Details"/>
+          <include name="updateCheckList"/>
+          <include name="endReport"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- Test_cases.CheckListTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
